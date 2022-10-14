@@ -1,0 +1,72 @@
+ /* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ffaf00, #bb03ff);
+  background-attachment: fixed;
+}
+.container{
+ flex-direction: row;
+  position: relative;
+   width: 1150px; 
+  width: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .card{
+  display: flex;
+  
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background-color: rgb(168, 255, 226);
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  transition: 0.5s;
+}
+.container .card .circle{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  clip-path: circle(180px at center 0);
+  text-align: center;
+}
+
+.container .card .circle h5{
+  color: #ffffff;
+  font-size: 1.5em;
+  padding: 30px 0;
+}
+.container .card .content{
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+  page-break-after: 20px;
+  text-align: center;
+}
+.container .card .content p{
+  color: #063158;
+}
+
+
+.container .card .circle h6{
+  color: hsl(0, 0%, 100%);
+  font-size: 2.0em;
+  padding: 30px 0;
+}
+
+   */
